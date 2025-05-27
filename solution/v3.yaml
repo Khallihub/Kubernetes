@@ -1,7 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mywebapp
+  name: khalid-abdu-ugr-8610-13
+  annotations:
+    submitted-by: khalid-abdu-ugr-8610-13
   labels:
     app: mywebapp
 spec:
@@ -26,7 +28,7 @@ data:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mydeployment
+  name: khalid-abdu-ugr-8610-13
   labels:
     app: mywebapp
 spec:
